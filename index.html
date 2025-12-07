@@ -725,8 +725,8 @@
         // Video Play Function
         function playVideo(element, videoId) {
             const iframe = document.createElement('iframe');
-            // autoplay=1&mute=1 추가하여 자동 재생 보장
-            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`;
+            // autoplay=1&mute=1 추가하여 자동 재생 보장 - controls=1 추가하여 사용자 소리 조절 가능하게 함
+            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=1`;
             iframe.className = 'absolute top-0 left-0 w-full h-full';
             iframe.frameBorder = '0';
             iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
