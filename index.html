@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP 초청: 하이난 JW 메리어트 프라이빗 투어</title>
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="[VIP] 하이난 JW 메리어트 4박 6일 프라이빗 투어">
+    <meta property="og:description" content="대동해의 럭셔리, JW 메리어트에서 즐기는 노쇼핑/노옵션 고품격 휴양">
+    <meta property="og:image" content="https://tse4.mm.bing.net/th/id/OIP.NQooykpvV8CMZ30vHL3RbQHaFj?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 폰트 통일 요청 반영: Noto Sans KR만 사용 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* 전체 폰트 통일 */
+        body { font-family: 'Noto Sans KR', sans-serif; color: #1e293b; word-break: keep-all; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Noto Sans KR', sans-serif; }
+        
+        .hero-section {
+            background-image: linear-gradient(rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.7)), url('https://tse4.mm.bing.net/th/id/OIP.NQooykpvV8CMZ30vHL3RbQHaFj?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .gold-text { color: #d4af37; }
+        .gold-bg { background-color: #d4af37; }
+        .bg-navy { background-color: #0f172a; }
+        .border-gold { border-color: #d4af37; }
+
+        /* Timeline Styles */
+        .timeline-item { position: relative; padding-left: 2rem; padding-bottom: 2.5rem; border-left: 1px solid #e2e8f0; }
+        .timeline-item:last-child { border-left: none; }
+        .timeline-dot { position: absolute; left: -0.35rem; top: 0.25rem; width: 0.75rem; height: 0.75rem; border-radius: 50%; background-color: #d4af37; outline: 4px solid white; }
+
+        /* Info Accordion Styles */
+        .info-card { transition: all 0.3s ease; }
+        .info-card:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+
+        /* Animations */
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-up { animation: fadeInUp 0.8s ease-out forwards; }
+
+        /* Video Overlay */
+        .video-thumbnail {
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .video-thumbnail::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+            transition: background 0.3s;
+            z-index: 1;
+        }
+        .video-thumbnail:hover::before {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 64px;
+            height: 64px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+        .video-thumbnail:hover .play-button {
+            transform: translate(-50%, -50%) scale(1.1);
+            background-color: #d4af37;
+            color: white;
+        }
+        .play-icon {
+            margin-left: 4px; /* 시각적 보정 */
+            font-size: 24px;
+            color: #0f172a;
+        }
+        .video-thumbnail:hover .play-icon {
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm transition-all duration-300">
+        <div class="container mx-auto px-4 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex-shrink-0" onclick="window.scrollTo(0,0)">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-10 w-auto">
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#concept" class="text-sm font-bold text-slate-600 hover:text-[#d4af37] transition">PREMIUM CONCEPT</a>
+                <a href="#hotel" class="text-sm font-bold text-slate-600 hover:text-[#d4af37] transition">JW MARRIOTT</a>
+                <a href="#schedule" class="text-sm font-bold text-slate-600 hover:text-[#d4af37] transition">ITINERARY</a>
+                <a href="#guide" class="text-sm font-bold text-slate-600 hover:text-[#d4af37] transition">TRAVEL GUIDE</a>
+                <a href="#safety" class="text-sm font-bold text-slate-600 hover:text-[#d4af37] transition">SAFETY</a>
+            </nav>
+            <a href="https://indadady.github.io/TourMaker_profile/" target="_blank" class="bg-navy text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-slate-800 transition shadow-lg">
+                상담문의
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section min-h-screen flex items-center relative text-white">
+            <div class="container mx-auto px-4 text-center z-10 animate-up">
+                <span class="inline-block border border-white/30 bg-white/10 backdrop-blur px-4 py-1 rounded-full text-xs font-bold tracking-widest mb-6 uppercase">Tourmaker Private Collection</span>
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+                    대동해의 품격,<br>
+                    <span class="gold-text">JW MARRIOTT</span><br>
+                    SANYA RETREAT
+                </h1>
+                <p class="text-lg md:text-xl font-medium text-slate-200 mb-10 max-w-2xl mx-auto leading-relaxed">
+                    2026년 11월 2일, 특별한 당신을 위한 초대.<br>
+                    산과 바다가 감싸안은 대동해의 럭셔리 샌추어리에서<br>
+                    진정한 쉼을 경험하세요.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#schedule" class="bg-[#d4af37] text-white px-8 py-4 rounded-sm font-bold text-lg hover:bg-[#b5952f] transition shadow-xl">
+                        일정 확인하기
+                    </a>
+                    <a href="#hotel" class="bg-transparent border border-white text-white px-8 py-4 rounded-sm font-bold text-lg hover:bg-white hover:text-navy transition">
+                        호텔 자세히보기
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Scroll Down Indicator -->
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <i class="fa-solid fa-chevron-down text-white/50 text-2xl"></i>
+            </div>
+        </section>
+
+        <!-- Premium Concept -->
+        <section id="concept" class="py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">ONLY FOR VIP</h2>
+                    <div class="w-16 h-1 bg-[#d4af37] mx-auto mb-6"></div>
+                    <p class="text-slate-600 font-medium">품격 있는 여행을 위한 투어메이커의 3가지 약속</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-12">
+                    <div class="text-center group">
+                        <div class="w-20 h-20 mx-auto bg-slate-50 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-gem text-3xl text-[#d4af37]"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">No Shopping & Option</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            쇼핑센터 방문이나 옵션 강요 없는<br>
+                            100% 순수 여행 일정.<br>
+                            오직 휴식과 관광에만 집중합니다.
+                        </p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-20 h-20 mx-auto bg-slate-50 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-utensils text-3xl text-[#d4af37]"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Premium Dining</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            호텔 럭셔리 조식부터<br>
+                            무제한 삼겹살, 소고기 샤브샤브까지<br>
+                            엄선된 미식의 향연.
+                        </p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-20 h-20 mx-auto bg-slate-50 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-star text-3xl text-[#d4af37]"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Luxury Activity</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            별빛 유람선 야경 투어,<br>
+                            여행의 피로를 푸는 전신 마사지(1시간),<br>
+                            VIP 전용 차량 서비스.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JW Marriott Showcase -->
+        <section id="hotel" class="py-24 bg-navy text-white relative overflow-hidden">
+            <!-- Decorative Elements -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-[#d4af37] opacity-10 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
+            
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="flex flex-col lg:flex-row items-start gap-16">
+                    <!-- Text Content -->
+                    <div class="lg:w-1/2 sticky top-24">
+                        <div class="flex items-center gap-3 mb-4 text-[#d4af37]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">
+                            JW Marriott<br>
+                            Sanya Dadonghai Bay
+                        </h2>
+                        
+                        <div class="space-y-8">
+                            <div>
+                                <h3 class="text-xl font-bold mb-2 text-[#d4af37]">Location & View</h3>
+                                <p class="text-slate-300 font-light leading-relaxed">
+                                    대동해의 푸른 바다와 열대 우림 산세가 감싸는 배산임수의 명당. 
+                                    호텔 바로 앞 산호초 자연 보호구역이 선사하는 프라이빗한 비치 뷰를 객실과 로비 어디서든 감상할 수 있습니다.
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2 text-[#d4af37]">Luxury Rooms</h3>
+                                <p class="text-slate-300 font-light leading-relaxed">
+                                    약 50~54㎡의 넓은 객실 면적을 자랑하는 디럭스 오션뷰 룸.
+                                    바다를 향해 열린 풀 오픈형 발코니와 통유리창, 독립형 욕조와 아로마테라피 어메니티가 최상의 휴식을 보장합니다.
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2 text-[#d4af37]">Signature Facilities</h3>
+                                <p class="text-slate-300 font-light leading-relaxed">
+                                    바다와 이어지는 듯한 인피니티 풀, 가족을 위한 키즈풀 등 3개의 야외 수영장.
+                                    JW Kitchen의 인터내셔널 뷔페와 정통 중식당 Man Ho에서 즐기는 미식 경험.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-10 p-6 border border-white/10 rounded-lg bg-white/5 backdrop-blur-sm">
+                            <ul class="grid grid-cols-2 gap-4 text-sm text-slate-300">
+                                <li class="flex items-center"><i class="fa-solid fa-check text-[#d4af37] mr-2"></i> 전 객실 발코니 보유</li>
+                                <li class="flex items-center"><i class="fa-solid fa-check text-[#d4af37] mr-2"></i> 24시간 피트니스</li>
+                                <li class="flex items-center"><i class="fa-solid fa-check text-[#d4af37] mr-2"></i> 대동해 시내 도보 10분</li>
+                                <li class="flex items-center"><i class="fa-solid fa-check text-[#d4af37] mr-2"></i> 키즈 클럽 & 패밀리 풀</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Image Grid -->
+                    <div class="lg:w-1/2 w-full grid grid-cols-2 gap-4">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.vO7gAmCmbTP4eFTB8I2UZQHaE8?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-500" alt="JW Marriott Exterior">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.mHpd1FTqCW5RjZBS2CKPiwHaE8?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-500 mt-8" alt="JW Marriott Pool">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.ioi0srzXcerJMnlF6rTY8AHaE8?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0" class="w-full h-80 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-500" alt="JW Marriott Room">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.4NMMzNEJhrjbqfZgy2BC5wHaE8?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-500 mt-8" alt="JW Marriott Dining">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Itinerary -->
+        <section id="schedule" class="py-24 bg-slate-50">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">ITINERARY</h2>
+                    <p class="text-slate-600 font-medium">청주 출발 4박 6일 VIP 일정 (티웨이항공)</p>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                    <!-- Day Tabs -->
+                    <div class="flex overflow-x-auto border-b border-slate-100 no-scrollbar" id="dayTabs">
+                        <!-- JS generated tabs -->
+                    </div>
+
+                    <!-- Content -->
+                    <div id="scheduleContent" class="p-6 md:p-12 min-h-[400px]">
+                        <!-- JS generated content -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Travel Guide Section -->
+        <section id="guide" class="py-24 bg-white">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">TRAVEL GUIDE</h2>
+                    <div class="w-16 h-1 bg-[#d4af37] mx-auto mb-6"></div>
+                    <p class="text-slate-600 font-medium">안전하고 편안한 하이난 여행을 위한 필수 가이드</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card 1: Overview -->
+                    <div class="info-card bg-slate-50 p-8 rounded-2xl border border-slate-100">
+                        <div class="w-12 h-12 bg-navy rounded-full flex items-center justify-center mb-6 text-white text-xl">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">하이난·산야 개요</h3>
+                        <ul class="space-y-3 text-sm text-slate-600 leading-relaxed">
+                            <li><strong class="text-slate-800">위치:</strong> 중국 최남단 '동양의 하와이', 연중 따뜻한 열대 해양성 기후.</li>
+                            <li><strong class="text-slate-800">산야(Sanya):</strong> 하이난 최남단 휴양 도시. 대동해, 아롱만, 해탕만 등 고급 리조트 밀집 지역.</li>
+                            <li><strong class="text-slate-800">대동해:</strong> 도심 접근성이 좋고 현지 분위기와 휴양을 동시에 즐길 수 있는 최적의 위치.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 2: Weather -->
+                    <div class="info-card bg-slate-50 p-8 rounded-2xl border border-slate-100">
+                        <div class="w-12 h-12 bg-[#d4af37] rounded-full flex items-center justify-center mb-6 text-white text-xl">
+                            <i class="fa-solid fa-sun"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">11월 날씨 정보</h3>
+                        <ul class="space-y-3 text-sm text-slate-600 leading-relaxed">
+                            <li><strong class="text-slate-800">기온:</strong> 평균 25℃ (최고 29℃ / 최저 21℃). 한국의 초여름 날씨와 유사합니다.</li>
+                            <li><strong class="text-slate-800">강수:</strong> 11월은 건기에 속해 맑은 날이 많고 야외 활동에 최적입니다.</li>
+                            <li><strong class="text-slate-800">옷차림:</strong> 반팔/반바지 위주로 준비하되, 실내 냉방 및 저녁을 대비해 얇은 가디건을 챙기세요.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 3: Tips & Caution -->
+                    <div class="info-card bg-slate-50 p-8 rounded-2xl border border-slate-100">
+                        <div class="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mb-6 text-white text-xl">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">여행 필수 유의사항</h3>
+                        <ul class="space-y-3 text-sm text-slate-600 leading-relaxed">
+                            <li><strong class="text-slate-800">비자:</strong> 한국인은 30일 무비자 입국 가능 (여권 유효기간 6개월 이상 필수).</li>
+                            <li><strong class="text-slate-800">건강:</strong> 자외선이 강하니 선크림/모자 필수. 물은 생수만 음용하세요.</li>
+                            <li><strong class="text-slate-800">안전:</strong> 해변 수영 시 안전 구역 준수 및 귀중품 관리에 유의하세요.</li>
+                            <li><strong class="text-slate-800">쇼핑:</strong> 검증된 면세점 및 정찰제 상점 이용을 권장합니다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- [NEW] Safety Guidelines Section -->
+        <section id="safety" class="py-24 bg-slate-50 border-t border-slate-200">
+            <div class="container mx-auto px-4 max-w-6xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">SAFETY GUIDELINES</h2>
+                    <div class="w-16 h-1 bg-red-500 mx-auto mb-6"></div>
+                    <p class="text-slate-600 font-medium">안전하고 즐거운 여행을 위한 7대 수칙</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- 1. 기본 원칙 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-slate-700">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center mr-3 text-slate-700">
+                                <i class="fa-solid fa-gavel"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">1. 기본 원칙</h3>
+                        </div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-4">
+                            <li><strong>안전 우선:</strong> 모든 일정은 인솔자 및 현지 가이드의 안내를 우선합니다.</li>
+                            <li><strong>단독 행동 자제:</strong> 자유시간에도 2인 이상 동행을 권장하며, 숙소/집결지 이탈 시 보고 바랍니다.</li>
+                            <li><strong>연락망 유지:</strong> 로밍/eSIM 확인, 가이드 연락처 저장, 보조배터리 지참 필수.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 2. 일정/시간 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-[#d4af37]">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-yellow-50 flex items-center justify-center mr-3 text-[#d4af37]">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">2. 일정·집합 시간 준수</h3>
+                        </div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-4">
+                            <li><strong>10분 전 집합:</strong> 집합 시간은 곧 안전 시간입니다. 정해진 장소와 시간을 엄수해 주세요.</li>
+                            <li><strong>차량 안전:</strong> 버스 이동 시 안전벨트 착용은 필수이며, 운행 중 이동을 자제해 주세요.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 3. 건강/기후 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-orange-500">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center mr-3 text-orange-500">
+                                <i class="fa-solid fa-temperature-sun"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">3. 건강 및 기후 대비</h3>
+                        </div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-4">
+                            <li><strong>자외선 주의:</strong> 11월 산야는 한여름입니다. 선크림, 모자, 선글라스를 꼭 준비하세요.</li>
+                            <li><strong>수분 섭취:</strong> 야외 활동 시 충분한 물을 마셔 탈수를 예방하세요.</li>
+                            <li><strong>건강 공유:</strong> 지병이나 컨디션 난조 시 인솔자에게 즉시 공유해 주시기 바랍니다.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 4. 해변/수영 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-500">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-500">
+                                <i class="fa-solid fa-person-swimming"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">4. 해변·수영 안전</h3>
+                        </div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-4">
+                            <li><strong>지정 구역 준수:</strong> 구조요원이 있는 허용 구역 내에서만 물놀이를 즐기세요.</li>
+                            <li><strong>음주 수영 금지:</strong> 맥주 한 잔 후라도 최소 1~2시간 입수를 금합니다.</li>
+                            <li><strong>장비 착용:</strong> 해양 스포츠 시 구명조끼 등 안전 장비를 필히 착용하세요.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 5. 야간/치안 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-purple-500">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center mr-3 text-purple-500">
+                                <i class="fa-solid fa-moon"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">5. 야간 활동 및 치안</h3>
+                        </div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-4">
+                            <li><strong>야간 동행:</strong> 밤에는 단독 외출을 삼가고, 부득이할 경우 2인 이상 이동하세요.</li>
+                            <li><strong>음주/분쟁 자제:</strong> 과음을 피하고, 현지인과의 불필요한 마찰을 주의하세요.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 6. 귀중품 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-green-500">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center mr-3 text-green-500">
+                                <i class="fa-solid fa-wallet"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">6. 귀중품 및 쇼핑</h3>
+                        </div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-4">
+                            <li><strong>분산 보관:</strong> 여권 원본은 호텔 금고에, 현금은 분산하여 휴대하세요.</li>
+                            <li><strong>빈 가방 주의:</strong> 물놀이 시 짐을 지킬 일행을 정해주세요.</li>
+                            <li><strong>영수증 확인:</strong> 식당/상점 이용 시 메뉴판 가격과 영수증을 대조하세요.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 7. 비상 대응 (Full Width) -->
+                <div class="mt-6 bg-red-50 p-6 rounded-xl border border-red-100 flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
+                    <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-600 text-xl mb-4 md:mb-0 md:mr-6 flex-shrink-0">
+                        <i class="fa-solid fa-truck-medical"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-red-800 mb-2">7. 비상 상황 대응</h3>
+                        <p class="text-sm text-red-700 leading-relaxed">
+                            분실, 도난, 사고 발생 시 <strong>즉시 인솔자 및 가이드에게 상황을 알려주세요.</strong>
+                            호텔 프런트 및 현지 응급 연락처는 현지 도착 후 상세히 안내해 드립니다.
+                            <strong>무엇보다 고객님의 '건강과 안전'이 최우선입니다.</strong> 몸 상태가 좋지 않다면 언제든 말씀해 주세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Curation (Custom Thumbnail Applied) -->
+        <section id="video" class="py-24 bg-white border-t border-slate-100">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">PREVIEW SANYA</h2>
+                    <p class="text-slate-600 font-medium">영상으로 미리 만나는 하이난의 매력</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <!-- Video 1: Hainan Vibe -->
+                    <div class="rounded-xl overflow-hidden shadow-2xl group">
+                        <div class="video-thumbnail relative pb-[56.25%]" onclick="playVideo(this, 'e_e_2D1v1_E')">
+                            <!-- Custom Thumbnail Image (Hainan Night/Landscape) -->
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.IFbsnA2CS7GpEBCtwF9gogHaEs?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0" class="absolute top-0 left-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-700" alt="Hainan Thumbnail">
+                            <div class="play-button">
+                                <i class="fa-solid fa-play play-icon"></i>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-slate-900 text-white relative z-10">
+                            <h3 class="text-lg font-bold mb-2">하이난, 동양의 하와이</h3>
+                            <p class="text-sm text-slate-400">푸른 바다와 이국적인 풍광, 하이난의 아름다움을 4K로 감상하세요.</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 2: JW Marriott Experience -->
+                    <div class="rounded-xl overflow-hidden shadow-2xl group">
+                        <div class="video-thumbnail relative pb-[56.25%]" onclick="playVideo(this, 'Pj1c9Q_u-yQ')">
+                            <!-- Custom Thumbnail Image (JW Marriott Pool) -->
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.mHpd1FTqCW5RjZBS2CKPiwHaE8?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0" class="absolute top-0 left-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-700" alt="JW Marriott Thumbnail">
+                            <div class="play-button">
+                                <i class="fa-solid fa-play play-icon"></i>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-slate-900 text-white relative z-10">
+                            <h3 class="text-lg font-bold mb-2">JW Marriott Experience</h3>
+                            <p class="text-sm text-slate-400">자연과 하나되는 럭셔리, JW 메리어트만의 특별한 휴식.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Info (Price Removed) -->
+        <section class="py-20 bg-[#f8f5f0] border-t border-[#e2dcd0]">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-black text-slate-900 mb-8">Confirmed Details</h2>
+                
+                <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg mb-10">
+                    <div class="flex justify-between items-center border-b border-slate-100 pb-4 mb-4">
+                        <span class="text-slate-500 font-bold">출발일</span>
+                        <span class="text-slate-900 font-bold">2026년 11월 2일 (월)</span>
+                    </div>
+                    <div class="flex justify-between items-center border-b border-slate-100 pb-4 mb-4">
+                        <span class="text-slate-500 font-bold">이용항공</span>
+                        <span class="text-slate-900 font-bold">티웨이항공 (청주 출발)</span>
+                    </div>
+                    <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                        <span class="text-slate-500 font-bold">호텔</span>
+                        <span class="text-slate-900 font-bold text-navy">JW 메리어트 대동해 (5성)</span>
+                    </div>
+                    <p class="text-xs text-right text-slate-400 mt-4">* 16명 확정 진행</p>
+                </div>
+
+                <!-- Updated Call to Action -->
+                <a href="https://indadady.github.io/TourMaker_profile/" target="_blank" class="inline-flex items-center bg-navy text-white px-12 py-5 rounded-sm font-bold text-xl hover:bg-slate-800 transition shadow-xl group">
+                    <i class="fa-solid fa-building mr-3 group-hover:text-[#d4af37] transition"></i>
+                    투어메이커 상담문의 (회사소개)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-8 mx-auto mb-6 opacity-50 grayscale">
+            <p class="text-sm mb-2 font-medium">(주)투어메이커 | 대표: 이재명 | 연락처: 010-9443-7881</p>
+            <p class="text-sm">본 상품은 JW 메리어트 및 현지 랜드사와의 특별 제휴를 통해 제공되는 VIP 단독 상품입니다.</p>
+            <p class="text-xs mt-8 opacity-60">&copy; 2025 Tourmaker. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const scheduleData = {
+            day1: {
+                title: "설레는 출발",
+                date: "11/02 (월)",
+                items: [
+                    { time: "18:00", title: "청주공항 집결", desc: "청주공항 1층 티웨이항공 카운터 앞" },
+                    { time: "20:40", title: "청주 출발 (TW633)", desc: "약 4시간 50분 소요" },
+                    { time: "00:30", title: "하이난 삼아 도착", desc: "입국 수속 후 가이드 미팅" },
+                    { time: "01:30", title: "JW 메리어트 체크인", desc: "대동해 베이 오션뷰 객실 투숙" }
+                ]
+            },
+            day2: {
+                title: "문화와 미식",
+                date: "11/03 (화)",
+                items: [
+                    { time: "오전", title: "호텔 조식 및 자유시간", desc: "JW 키친 조식 뷔페 및 인피니티 풀 휴식" },
+                    { time: "12:00", title: "중식 (현지식)", desc: "현지 특식으로 점심 식사" },
+                    { 
+                        time: "오후", 
+                        title: "남산문화원 풍경구", 
+                        desc: "108m 해수관음상이 바다 위에 우뚝 선 5A급 불교 테마 공원입니다. (코끼리열차 포함)",
+                        image: "https://tse2.mm.bing.net/th/id/OIP.dw00p2mtqx-aq68o4KhRyAHaEi?w=474&h=474&c=7&p=0"
+                    },
+                    { 
+                        time: "오후", 
+                        title: "대소동천", 
+                        desc: "기암괴석과 바다가 어우러진 해안 절경. 도교 문화가 깃든 신비로운 풍경을 감상하세요. (전동카 포함)",
+                        image: "https://tse4.mm.bing.net/th/id/OIP.rqdyi4k0ArBvh5E2vig-VAHaEt?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0"
+                    },
+                    { 
+                        time: "오후", 
+                        title: "열대과일시장", 
+                        desc: "망고, 망고스틴, 용과 등 400여 종의 신선한 열대과일을 직접 맛보고 체험하는 시간.",
+                        image: "https://tse4.mm.bing.net/th/id/OIP.MH4hEPXEH4xuHXvVmqEZPQHaFZ?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0"
+                    },
+                    { time: "18:00", title: "석식 (소고기 샤브샤브)", desc: "깔끔하고 담백한 육수의 훠궈 특식" },
+                    { 
+                        time: "19:30", 
+                        title: "★ 별빛투어 유람선", 
+                        desc: "싼야만(Sanya Bay)의 화려한 스카이라인과 피닉스 아일랜드 야경을 선상에서 감상합니다.",
+                        image: "https://tse4.mm.bing.net/th/id/OIP.IFbsnA2CS7GpEBCtwF9gogHaEs?cb=ucfimg2&ucfimg=1&w=474&h=474&c=7&p=0"
+                    }
+                ]
+            },
+            day3: {
+                title: "로컬 체험",
+                date: "11/04 (수)",
+                items: [
+                    { time: "오전", title: "호텔 조식", desc: "" },
+                    { time: "오전", title: "삥랑빌리지", desc: "이족/묘족 소수민족 문화 체험 및 공연 관람" },
+                    { time: "12:00", title: "중식 (현지식)", desc: "" },
+                    { time: "오후", title: "원숭이섬", desc: "세계 유일의 원숭이 자연 보호구역 (해상 케이블카 탑승)" },
+                    { time: "오후", title: "일월만 비치 & Bar", desc: "서핑의 성지에서 즐기는 여유로운 산책과 커피" },
+                    { time: "18:00", title: "석식 (무제한 삼겹살)", desc: "한국인의 입맛에 딱 맞는 푸짐한 저녁 식사" }
+                ]
+            },
+            day4: {
+                title: "자유와 휴식",
+                date: "11/05 (목)",
+                items: [
+                    { time: "오전", title: "JW 메리어트 자유시간", desc: "전일 리조트 내 부대시설 이용 및 프라이빗 비치 휴식" },
+                    { time: "Tip", title: "호텔 100% 즐기기", desc: "키즈클럽, 피트니스, 혹은 룸서비스(개별)로 여유로운 하루" },
+                    { time: "식사", title: "자유식", desc: "중/석식 불포함 (호텔 내 레스토랑 또는 인근 맛집 이용)" }
+                ]
+            },
+            day5: {
+                title: "핵심 관광",
+                date: "11/06 (금)",
+                items: [
+                    { time: "오전", title: "호텔 조식 및 체크아웃", desc: "" },
+                    { time: "오전", title: "아룡만 열대천당", desc: "영화 촬영지이자 최고의 뷰포인트 (유리잔도 포함)" },
+                    { time: "12:00", title: "중식 (현지식)", desc: "" },
+                    { time: "오후", title: "천애해각", desc: "'하늘의 끝, 바다의 모퉁이'라 불리는 명소 (전동카 포함)" },
+                    { time: "오후", title: "푸싱제 (여행자거리)", desc: "현지인들의 삶을 엿볼 수 있는 최대 번화가" },
+                    { time: "18:00", title: "석식 (동북요리)", desc: "한국인 입맛에 잘 맞는 꿔바로우 등 동북식 요리" },
+                    { time: "19:30", title: "녹회두 야경투어", desc: "싼야 시내 전경이 한눈에 들어오는 전망대 (전동카 포함)" },
+                    { time: "21:00", title: "★ 전신 마사지 (60분)", desc: "여행의 피로를 말끔히 씻어주는 테라피" },
+                    { time: "23:00", title: "공항 이동", desc: "" }
+                ]
+            },
+            day6: {
+                title: "귀국",
+                date: "11/07 (토)",
+                items: [
+                    { time: "02:00", title: "삼아 출발 (TW634)", desc: "" },
+                    { time: "07:05", title: "청주공항 도착", desc: "안녕히 가십시오." }
+                ]
+            }
+        };
+
+        const tabsContainer = document.getElementById('dayTabs');
+        const contentContainer = document.getElementById('scheduleContent');
+        let currentDay = 'day1';
+
+        function renderTabs() {
+            let html = '';
+            for (const [key, data] of Object.entries(scheduleData)) {
+                const isActive = key === currentDay;
+                const activeClass = isActive 
+                    ? 'border-b-2 border-[#d4af37] text-slate-900 bg-slate-50' 
+                    : 'text-slate-400 hover:text-slate-600';
+                
+                html += `
+                    <button onclick="switchDay('${key}')" 
+                        class="flex-shrink-0 px-6 py-4 text-sm md:text-base font-bold transition-colors ${activeClass}">
+                        <span class="block text-xs text-slate-400 mb-1">${data.date}</span>
+                        ${key.toUpperCase().replace('DAY', 'DAY ')}
+                    </button>
+                `;
+            }
+            tabsContainer.innerHTML = html;
+        }
+
+        function renderContent() {
+            const data = scheduleData[currentDay];
+            let html = `
+                <div class="animate-up">
+                    <h3 class="text-2xl font-black text-slate-900 mb-2">${data.title}</h3>
+                    <p class="text-slate-500 mb-8 flex items-center font-bold">
+                        <i class="fa-regular fa-calendar mr-2"></i> ${data.date}
+                    </p>
+                    <div class="space-y-0">
+            `;
+
+            data.items.forEach(item => {
+                const isSpecial = item.title.includes('★');
+                const titleClass = isSpecial ? 'text-[#d4af37]' : 'text-slate-800';
+                
+                // 이미지가 있는 경우 카드 형태 변경
+                const imageHtml = item.image ? `
+                    <div class="mb-4 mt-2 overflow-hidden rounded-lg shadow-md">
+                        <img src="${item.image}" alt="${item.title}" class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+                    </div>
+                ` : '';
+
+                html += `
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="flex flex-col md:flex-row md:items-start gap-2 md:gap-8">
+                            <span class="text-sm font-bold text-slate-400 w-16 pt-1 flex-shrink-0">${item.time}</span>
+                            <div class="flex-1 bg-white p-5 rounded-lg border border-slate-100 shadow-sm hover:shadow-md transition">
+                                <h4 class="font-bold text-lg ${titleClass} mb-1">${item.title}</h4>
+                                ${imageHtml}
+                                <p class="text-slate-600 text-sm leading-relaxed font-medium">${item.desc}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `</div></div>`;
+            contentContainer.innerHTML = html;
+        }
+
+        function switchDay(day) {
+            currentDay = day;
+            renderTabs();
+            renderContent();
+        }
+
+        // Video Play Function
+        function playVideo(element, videoId) {
+            const iframe = document.createElement('iframe');
+            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+            iframe.className = 'absolute top-0 left-0 w-full h-full';
+            iframe.frameBorder = '0';
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+            iframe.allowFullscreen = true;
+            
+            element.innerHTML = ''; // 기존 이미지와 버튼 제거
+            element.appendChild(iframe);
+            element.onclick = null; // 중복 실행 방지
+        }
+
+        // Init
+        renderTabs();
+        renderContent();
+    </script>
+</body>
+</html>
