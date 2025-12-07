@@ -79,6 +79,11 @@
             transition: background 0.3s;
             z-index: 1;
         }
+        /* [중요] 영상 재생 시 오버레이 제거 (컨트롤 클릭 가능하게 함) */
+        .video-thumbnail.playing::before {
+            display: none;
+        }
+        
         .video-thumbnail:hover::before {
             background: rgba(0, 0, 0, 0.5);
         }
@@ -733,6 +738,7 @@
             iframe.allowFullscreen = true;
             
             element.innerHTML = ''; // 기존 이미지와 버튼 제거
+            element.classList.add('playing'); // [중요] 오버레이 제거 클래스 추가
             element.appendChild(iframe);
             element.onclick = null; // 중복 실행 방지
         }
